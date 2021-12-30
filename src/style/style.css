@@ -1,0 +1,160 @@
+/* General Styles */
+
+:root {
+  --clr-background-400: #f55a5a;
+
+  --clr-accent-100: #f5f5f5;
+  --clr-accent-300: #918e9b;
+  --clr-accent-800: #2b283a;
+
+  --clr-neutral-100: #fff;
+
+  --ff-primary: "Inter", sans-serif;
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-bold: 700;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--ff-primary);
+}
+
+body {
+  margin: 0;
+}
+
+/* Navbar Styles */
+
+.navbar {
+  background: var(--clr-background-400);
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.nav--icon {
+  height: 1.5em;
+  width: 1.5em;
+  fill: var(--clr-neutral-100);
+  margin-right: 0.4375em;
+}
+
+.nav--text {
+  color: var(--clr-neutral-100);
+  font-weight: var(--fw-medium);
+  font-size: 1rem;
+  line-height: 1.125rem;
+  letter-spacing: -0.075em;
+}
+
+.nav--icon,
+.nav--text {
+  justify-content: center;
+  align-self: center;
+}
+
+/* Card Section Styles */
+
+.cards--list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.8125em;
+}
+
+.card {
+  display: flex;
+  gap: 1.1875em;
+  margin: 0 2.5em;
+}
+
+.card--image {
+  height: 100%;
+  width: 100%;
+  max-width: 55%;
+  border-radius: 0.3125em;
+}
+
+.card--text_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.card--location_info {
+  display: flex;
+  align-items: center;
+}
+
+.card--icon {
+  height: 0.625em;
+  width: 0.4375em;
+  fill: var(--clr-background-400);
+  margin-right: 0.25em;
+}
+
+.card--location {
+  padding-right: 1.175em;
+  letter-spacing: 0.17em;
+}
+
+.card--url {
+  color: var(--clr-accent-300);
+  text-decoration-line: underline;
+  margin-bottom: -0.2em;
+}
+
+.card--title {
+  font-size: 1.5625rem;
+  line-height: 1.875rem;
+  margin-top: -0.2em;
+  margin-bottom: 0.2em;
+}
+
+.card--date {
+  font-weight: var(--fw-bold);
+  margin-bottom: -0.2em;
+}
+
+.card--location,
+.card--url,
+.card--date {
+  line-height: 0.75rem;
+}
+
+.card--start_date {
+  padding-right: 0.4em;
+}
+
+.card--end_date {
+  padding-left: 0.4em;
+}
+
+.card--description {
+  line-height: 0.9375rem;
+}
+
+.card--location,
+.card--url,
+.card--date,
+.card--description {
+  font-size: 0.64rem;
+}
+
+.card--location,
+.card--title,
+.card--date,
+.card--description {
+  color: var(--clr-accent-800);
+}
+
+.card--separator {
+  border: 0.0625em solid var(--clr-accent-100);
+  margin: 1.125em 2.5em;
+}
