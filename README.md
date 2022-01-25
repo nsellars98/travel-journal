@@ -38,6 +38,8 @@ Malan's Peak:
 - [AllTrails](https://www.alltrails.com/trail/us/utah/malans-peak)
 - [Malans Peak Utah](https://utah.com/hiking/malans-peak)
 
+Technologies used: HTML, CSS, React, Microsoft Edge web browser, Visual Studio Code
+
 Check it out [here](#).
 
 # Getting Started with Create React App
