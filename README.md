@@ -40,7 +40,7 @@ Malan's Peak:
 
 Technologies used: HTML, CSS, React, Microsoft Edge web browser, Visual Studio Code
 
-Check it out [here](#).
+Check it out [here](https://nsellars98.github.io/travel-journal/).
 
 # Getting Started with Create React App
 
