@@ -1,3 +1,47 @@
+# Travel Journal
+
+A single page application (SPA) project built from scratch with HTML, pure CSS, and Reactjs as part of the ***React Basics*** module of the ***Frontend Developer Career Path*** by **Bob Ziroll** on [Scrimba](https://scrimba.com/learn/frontend/section-2-solo-project-co28748668d0f6071a25bad6c).
+
+[Figma Design](https://www.figma.com/file/dAOEZiGht6ZuOQF3DhuOEo/Travel-Journal-(Copy)?node-id=0%3A1) _not_ created by me.
+
+Photos included in the project are owned by me.
+
+Location description sources:
+
+Meteor Crater:
+
+- [Bing](https://www.bing.com/search?q=meteor+crater+arizona&cvid=f9ccd10b68064814a0c18deaade354c3&aqs=edge.0.0l9.19298j0j4&FORM=ANAB01&PC=U531)
+- [Wikipedia](https://en.wikipedia.org/wiki/Meteor_Crater)
+- [NASA](https://earthobservatory.nasa.gov/images/148384/arizonas-meteor-crater)
+
+Grand Canyon NP:
+
+- [Bing](https://www.bing.com/search?q=grand+canyon+national+park&filters=ufn%3a%22grand+canyon+national+park%22+sid%3a%222d0d9b2e-d680-d14a-306e-014e42ebb1b4%22&qs=MB&pq=grand+ca&sc=8-8&cvid=9EF19FE9CDB344BB9D38FB48128972DA&FORM=QBRE&sp=1)
+- [Wikipedia](https://en.wikipedia.org/wiki/Grand_Canyon_National_Park)
+- [NPS](https://www.nps.gov/grca/index.htm)
+
+Horsehoe Bend:
+
+- [Bing](https://www.bing.com/search?q=horseshoe+bend+arizona&qs=LS&pq=horseshoe+bend+&sk=LS1&sc=8-15&cvid=90AE9498632B4C1D95FE4CBEAC28D4E3&FORM=QBRE&sp=2)
+- [Wikipedia](https://en.wikipedia.org/wiki/Horseshoe_Bend_(Arizona))
+- [NPS](https://www.nps.gov/places/hsb.htm)
+
+Bryce Canyon NP:
+
+- [Bing](https://www.bing.com/search?q=bryce+canyon+national+park&filters=ufn%3a%22bryce+canyon+national+park%22+sid%3a%224817c486-321a-9417-13e2-e65fc33642fe%22&qs=MB&pq=bryce+ca&sc=8-8&cvid=DCE4ABF126FC4357ABF2AE502591A4FF&FORM=QBRE&sp=1)
+- [Wikipedia](https://en.wikipedia.org/wiki/Bryce_Canyon_National_Park)
+- [NPS](https://www.nps.gov/brca/planyourvisit/index.htm)
+
+Malan's Peak:
+
+- [Bing](https://www.bing.com/search?q=malans+peak+ogden+utah&qs=UT&pq=malans+peak&sk=MT1UT2&sc=8-11&cvid=1A8CE0EAC7B943448A8E24BC86C5AB5B&FORM=QBRE&sp=4)
+- [AllTrails](https://www.alltrails.com/trail/us/utah/malans-peak)
+- [Malans Peak Utah](https://utah.com/hiking/malans-peak)
+
+Technologies used: HTML, CSS, React, Microsoft Edge web browser, Visual Studio Code
+
+Check it out [here](#).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
