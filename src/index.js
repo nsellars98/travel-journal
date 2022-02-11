@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./style/style.css"
+import "./style/index.css"
+import "./style/responsive.css"
 import App from "./App";
-
 // import reportWebVitals from './reportWebVitals';
 
 const rootElement = document.querySelector("#root");

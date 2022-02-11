@@ -1,0 +1,275 @@
+/* 4K (Widescreen) */
+@media (min-width: 2000px) {
+  :root {
+    --fs-card-info: 1.8rem;
+    --fs-nav-text: 2.75rem;
+    --fs-card-title: 4.2rem;
+
+    --lh-card-info: 2.1rem;
+    --lh-card-description: 2.55rem;
+    --lh-nav-text: 3rem;
+    --lh-card-title: 4.8rem;
+
+    --bs: 0.7em 0.7em 0.33em rgba(0, 0, 0, 0.5),
+      0.375em 0.375em 0.25em rgba(0, 0, 0, 0.25);
+  }
+
+  .nav--icon {
+    height: 4em;
+    width: 4em;
+  }
+
+  .nav--icon,
+  .card--icon {
+    margin-right: 0.6em;
+  }
+
+  .cards--list {
+    margin-top: 3.1em;
+  }
+
+  .card--image {
+    margin-bottom: 2.7em;
+    border-radius: 0.85em;
+  }
+
+  .card--icon {
+    height: 3em;
+    width: 3em;
+  }
+
+  .card--separator {
+    margin: 0.8em 1.45em 2.8em;
+  }
+}
+
+/* Laptop L */
+@media (min-width: 1440px) and (max-width: 1999px) {
+  :root {
+    --fs-card-info: 1.2rem;
+    --fs-nav-text: 2rem;
+    --fs-card-title: 3rem;
+
+    --lh-card-info: 1.5rem;
+    --lh-card-description: 1.9rem;
+    --lh-nav-text: 2.2rem;
+    --lh-card-title: 3.6rem;
+
+    --bs: 0.5em 0.5em 0.33em rgba(0, 0, 0, 0.5),
+      0.25em 0.25em 0.25em rgba(0, 0, 0, 0.25);
+  }
+
+  .nav--icon {
+    height: 2.75em;
+    width: 2.75em;
+  }
+
+  .nav--icon,
+  .card--icon {
+    margin-right: 0.5em;
+  }
+
+  .cards--list {
+    margin-top: 2.4em;
+  }
+
+  .card--image {
+    margin-bottom: 2.1em;
+    border-radius: 0.65em;
+  }
+
+  .card--icon {
+    height: 2em;
+    width: 2em;
+  }
+
+  .card--separator {
+    margin: 0.6em 1.45em 2.3em;
+  }
+}
+
+/* Laptop */
+@media (min-width: 1024px) and (max-width: 1439px) {
+  :root {
+    --fs-card-info: 1rem;
+    --fs-nav-text: 1.75rem;
+    --fs-card-title: 2.5rem;
+
+    --lh-card-info: 1.33rem;
+    --lh-card-description: 1.6rem;
+    --lh-nav-text: 2rem;
+    --lh-card-title: 3rem;
+
+    --bs: 0.5em 0.5em 0.33em rgba(0, 0, 0, 0.5),
+      0.25em 0.25em 0.25em rgba(0, 0, 0, 0.25);
+  }
+
+  .nav--icon {
+    height: 2.25em;
+    width: 2.25em;
+  }
+
+  .nav--icon,
+  .card--icon {
+    margin-right: 0.4em;
+  }
+
+  .cards--list {
+    margin-top: 2em;
+  }
+
+  .card--image {
+    margin-bottom: 1.95em;
+    border-radius: 0.55em;
+  }
+
+  .card--icon {
+    height: 1.75em;
+    width: 1.75em;
+  }
+
+  .card--separator {
+    margin: 0.5em 1.45em 2em;
+  }
+}
+
+/* Tablet */
+@media (min-width: 550px) and (max-width: 1023px) {
+  :root {
+    --fs-card-info: 0.9rem;
+    --fs-nav-text: 1.5rem;
+    --fs-card-title: 2.05rem;
+
+    --lh-card-info: 1.25rem;
+    --lh-card-description: 1.4rem;
+    --lh-nav-text: 1.6rem;
+    --lh-card-title: 2.5rem;
+
+    --bs: 0.5em 0.5em 0.33em rgba(0, 0, 0, 0.5),
+      0.25em 0.25em 0.25em rgba(0, 0, 0, 0.25);
+  }
+
+  .nav--icon {
+    height: 2em;
+    width: 2em;
+  }
+
+  .nav--icon,
+  .card--icon {
+    margin-right: 0.33em;
+  }
+
+  .cards--list {
+    margin-top: 1.8em;
+  }
+
+  .card--image {
+    margin-bottom: 1.75em;
+    border-radius: 0.5em;
+  }
+
+  .card--icon {
+    height: 1.6em;
+    width: 1.6em;
+  }
+
+  .card--separator {
+    margin: 0.45em 1.45em 1.7em;
+  }
+}
+
+/* Mobile & Tablet Specific Styles */
+@media (max-width: 800px) {
+  .card {
+    flex-wrap: wrap;
+    margin: 0 1.5em;
+  }
+
+  .card--image {
+    max-width: 100%;
+    border-radius: 0.5em;
+    margin-bottom: -1em;
+  }
+}
+
+/* Mobile L, default styles in index.css */
+
+/* Mobile M */
+@media (min-width: 321px) and (max-width: 375px) {
+  :root {
+    --fs-card-info: 0.75rem;
+    --fs-nav-text: 1.05rem;
+    --fs-card-title: 1.55em;
+
+    --lh-card-info: 1.05rem;
+    --lh-card-description: 1.2rem;
+    --lh-nav-text: 1.2rem;
+    --lh-card-title: 1.75rem;
+
+    --bs: 0.25em 0.25em 0.33em rgba(0, 0, 0, 0.5),
+      0.125em 0.125em 0.25em rgba(0, 0, 0, 0.25);
+  }
+
+  .nav--icon {
+    height: 1.4em;
+    width: 1.4em;
+  }
+
+  .nav--icon,
+  .card--icon {
+    margin-right: 0.2em;
+  }
+
+  .cards--list {
+    margin-top: 1.3em;
+  }
+
+  .card--icon {
+    height: 1.1em;
+    width: 1.1em;
+  }
+
+  .card--separator {
+    margin: 0.35em 1.45em 1.3em;
+  }
+}
+
+/* Mobile S */
+@media (max-width: 320px) {
+  :root {
+    --fs-card-info: 0.65rem;
+    --fs-nav-text: 0.9rem;
+    --fs-card-title: 1.33rem;
+
+    --lh-card-info: 0.8rem;
+    --lh-card-description: 1rem;
+    --lh-nav-text: 1rem;
+    --lh-card-title: 1.5rem;
+
+    --bs: 0.15em 0.15em 0.33em rgba(0, 0, 0, 0.5),
+      0.075em 0.075em 0.25em rgba(0, 0, 0, 0.25);
+  }
+
+  .nav--icon {
+    height: 1.2em;
+    width: 1.2em;
+  }
+
+  .nav--icon,
+  .card--icon {
+    margin-right: 0.15em;
+  }
+
+  .cards--list {
+    margin-top: 1.15em;
+  }
+
+  .card--icon {
+    height: 0.9em;
+    width: 0.9em;
+  }
+
+  .card--separator {
+    margin: 0.3em 1.45em 1.15em;
+  }
+}
