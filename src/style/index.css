@@ -42,6 +42,11 @@ body {
   margin: 0;
 }
 
+:focus {
+  outline: 3px solid var(--clr-background-400);
+  outline-offset: 3px;
+}
+
 /* Navbar Section Styles */
 
 .navbar {
@@ -92,6 +97,7 @@ body {
 }
 
 .card--image {
+  display: block;
   height: 100%;
   width: 100%;
   max-width: 50%;
@@ -121,10 +127,18 @@ body {
 }
 
 .card--url {
+  display: inline-block;
   color: var(--clr-accent-300);
   text-decoration-line: underline;
   margin-bottom: -0.2em;
   align-self: center;
+  cursor: pointer;
+  transition: transform 200ms ease-in-out;
+}
+
+.card--url:hover {
+  transform: scale(1.1);
+  color: var(--clr-accent-800);
 }
 
 .card--title {
