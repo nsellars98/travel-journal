@@ -1,8 +1,8 @@
 # Travel Journal
 
-A single page application (SPA) project built from scratch with HTML, pure CSS, and Reactjs as part of the ***React Basics*** module of the ***Frontend Developer Career Path*** by **Bob Ziroll** on [Scrimba](https://scrimba.com/learn/frontend/section-2-solo-project-co28748668d0f6071a25bad6c).
+A personal travel journal created after traveling through the southwestern United States on vacation in the summer of 2021. This single page application (SPA) project was built from scratch with HTML, pure CSS, and React using Create React App and is a part of the ***React Basics*** module of the ***Frontend Developer Career Path*** by **Bob Ziroll** on [Scrimba](https://scrimba.com/learn/frontend/section-2-solo-project-co28748668d0f6071a25bad6c).
 
-[Figma Design](https://www.figma.com/file/dAOEZiGht6ZuOQF3DhuOEo/Travel-Journal-(Copy)?node-id=0%3A1) _not_ created by me.
+[Figma](https://www.figma.com/file/dAOEZiGht6ZuOQF3DhuOEo/Travel-Journal-(Copy)?node-id=0%3A1) design _not_ created by me.
 
 Photos included in the project are owned by me.
 
